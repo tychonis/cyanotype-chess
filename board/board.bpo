@@ -1,0 +1,4 @@
+part "board" {
+    part_number = "20001"
+    ref = "file:board.stl"
+}

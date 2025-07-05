@@ -1,0 +1,153 @@
+// Toy example to show the power of cyanotype.
+// Parameterizacally create two sets of chess.
+// Cheap one is made from plastics and both side are made from the same piece base.
+// Luxury one is made from ivory or obsidian
+
+import "piece/printed" {}
+
+part "base" {
+    ref = "file:piece_base.stl"
+}
+
+class "piece" {
+    from = {
+        ref = item.base
+        qty = 1
+    }
+    ref = "file:{name}.stl"
+}
+
+variant "plastic_piece" {
+    base = class.piece
+    option_code = {
+        material = "plastic"
+    }
+}
+
+variant "ivory_piece" {
+    base = class.piece
+    option_code = {
+        material = "ivory"
+    }
+    attr = {
+        color = "white"
+    }
+}
+
+variant "obsidian_piece" {
+    base = class.piece
+    option_code = {
+        material = "obsidian"
+    }
+    attr = {
+        color = "black"
+    }
+}
+
+variant "black_piece" {
+    base = class.piece
+    option_code = {
+        color = "black"
+    }
+}
+
+variant "white_piece" {
+    base = class.piece
+    option_code = {
+        color = "white"
+    }
+}
+
+item "king" {
+    source = "virtual"
+}
+
+item "queen" {
+    source = "virtual"
+}
+
+item "bishop" {
+    source = "virtual"
+}
+
+item "knight" {
+    source = "virtual"
+}
+
+item "rook" {
+    source = "virtual"
+}
+
+item "pawn" {
+    source = "virtual"
+}
+
+item "suit" {
+    from = [
+        {
+            name = "king"
+            ref = king
+            variant = params.variant
+            qty = 1
+        },
+        {
+            name = "queen"
+            ref = queen
+            variant = params.variant
+            qty = 1
+        },
+        {
+            name = "bishop"
+            ref = bishop
+            variant = params.variant
+            qty = 2
+        },
+        {
+            name = "knight"
+            ref = knight
+            variant = params.variant
+            qty = 2
+        },
+        {
+            name = "rook"
+            ref = rook
+            variant = params.variant
+            qty = 2
+        },
+        {
+            name = "pawn"
+            ref = pawn
+            variant = params.variant
+            qty = 8
+        },
+    ]
+}
+
+item "set" {
+    from = [
+        {
+            name = "black_suit"
+            ref = suit
+            require = color_black
+            qty = 1
+        },
+        {
+            name = "white_suit"
+            ref = suit
+            require = color_white
+            qty = 1
+        },
+    ]
+}
+
+variant "budget" {
+    implements {
+        ref = item.set
+    }
+}
+
+variant "luxury" {
+    implements {
+        ref = item.set
+    }
+}

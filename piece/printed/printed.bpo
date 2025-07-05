@@ -1,0 +1,60 @@
+import "material" {}
+
+item "king" "printed" {
+    from = [
+        {
+            name = "body"
+            ref = item.king-body
+            variant = params.variant
+            qty = 1
+        },
+        {
+            name = "cross"
+            ref = item.king-cross
+            variant = params.variant
+            qty = 1
+        },
+    ]
+}
+
+item "king-body" {
+    source = printed
+    ref = "file:refs/stl/king-body.stl"
+}
+
+item "king-cross" {
+    source = printed
+    ref = "file:refs/stl/king-cross.stl"
+}
+
+item "queen" "printed" {
+    source = printed
+    ref = "file:refs/stl/queen.stl"
+    from = [
+        {
+            name = "filament"
+            ref = item.filament
+            qty = 0.03
+        }
+    ]
+}
+
+item "bishop" "printed" {
+    source = printed
+    ref = "file:refs/stl/bishop.stl"
+}
+
+item "knight" "printed" {
+    source = printed
+    ref = "file:refs/stl/knight.stl"
+}
+
+item "rook" "printed" {
+    source = printed
+    ref = "file:refs/stl/rook.stl"
+}
+
+item "pawn" "printed" {
+    source = printed
+    ref = "file:refs/stl/pawn.stl"
+}

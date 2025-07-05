@@ -1,0 +1,5 @@
+state "global" {
+    file = "chess.bpc"
+}
+
+import "piece" {}

@@ -1,0 +1,25 @@
+{
+  "id": "4890cf14-01ff-4242-b6b1-92ce98fb2c90",
+  "version": "alpha-0",
+  "name_index": {
+    "bishop": "0db8ef84-958f-46aa-af16-f60b84effedf",
+    "king": "e0eab755-3af3-4802-a641-af5c7682a063",
+    "knight": "564ed48d-4017-4700-b7ab-7553773ee6f8",
+    "pawn": "5958c29e-4dc7-47b6-820a-d2823f6bd4c1",
+    "queen": "57536d2b-63da-4121-81f7-e123b45b0b40",
+    "rook": "5960f139-4d2e-4f30-9699-09ef65597000",
+    "set": "0d4d61fe-e964-41f6-b000-049c37ab807b",
+    "suit": "b62336d1-7f63-4147-8fe8-c34f98ea7ff2"
+  },
+  "part_number_index": {
+    "0d4d61fe": "0d4d61fe-e964-41f6-b000-049c37ab807b",
+    "0db8ef84": "0db8ef84-958f-46aa-af16-f60b84effedf",
+    "564ed48d": "564ed48d-4017-4700-b7ab-7553773ee6f8",
+    "57536d2b": "57536d2b-63da-4121-81f7-e123b45b0b40",
+    "5958c29e": "5958c29e-4dc7-47b6-820a-d2823f6bd4c1",
+    "5960f139": "5960f139-4d2e-4f30-9699-09ef65597000",
+    "b62336d1": "b62336d1-7f63-4147-8fe8-c34f98ea7ff2",
+    "e0eab755": "e0eab755-3af3-4802-a641-af5c7682a063"
+  },
+  "catalog": {}
+}

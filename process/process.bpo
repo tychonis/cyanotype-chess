@@ -1,0 +1,7 @@
+process "assemble" {
+    preserve = [contract.color]
+}
+
+process "print" {
+    preserve = [contract.color]
+}

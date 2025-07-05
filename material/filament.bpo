@@ -1,0 +1,19 @@
+contract "color" "black" {}
+
+contract "color" "white" {}
+
+item "filament" {
+    source = "virtual"
+}
+
+item "filament" "black" {
+    implements = [contract.color.black]
+}
+
+item "filament" "white" {
+    implements = [contract.color.white]
+}
+
+item "filament" "printed" {
+    implements = [contract.color.white]
+}

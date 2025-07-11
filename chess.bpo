@@ -3,3 +3,26 @@ state "global" {
 }
 
 import "piece" {}
+import "board" {}
+
+item "set" {
+    from = [
+        {
+            name = "board"
+            ref = board.board
+            qty = 1
+        },
+        {
+            name = "black_suit"
+            ref = piece.suit
+            require = contract.color.black
+            qty = 1
+        },
+        {
+            name = "white_suit"
+            ref = piece.suit
+            require = contract.color.white
+            qty = 1
+        },
+    ]
+}

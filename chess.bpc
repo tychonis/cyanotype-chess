@@ -1,141 +1,41 @@
 {
-  "id": "3137943d-5d2c-4551-8cc2-8552964790c8",
-  "version": "alpha-0",
-  "name_index": {
-    "bishop": "754c3b3f-da07-4953-8b87-c62e89269162",
-    "filament": "46ef2bed-6e3b-408b-a9b8-9bc9eb8595a1",
-    "king": "de7bd5d4-d708-4678-b698-545368f6b2b0",
-    "king-body": "0c715831-6fca-48f7-b230-aeb24401a5c1",
-    "king-cross": "6d313782-790b-4f86-9331-53b0c718d180",
-    "knight": "c766f701-fbcc-47e6-947f-e2d23e464193",
-    "pawn": "fdf863c9-3947-4f3b-bd49-cc1f4161e910",
-    "queen": "9c7c0271-6e58-4700-8c2c-1876331f98b7",
-    "rook": "df028788-12c6-49b8-8cb6-d7a50a4976cf",
-    "set": "6b37e1b3-4114-4eba-a75d-9d8fb93ec6a0",
-    "suit": "8b7d239c-c60d-4255-bb96-e27b54952382"
-  },
-  "part_number_index": {
-    "0c715831": "0c715831-6fca-48f7-b230-aeb24401a5c1",
-    "46ef2bed": "46ef2bed-6e3b-408b-a9b8-9bc9eb8595a1",
-    "6b37e1b3": "6b37e1b3-4114-4eba-a75d-9d8fb93ec6a0",
-    "6d313782": "6d313782-790b-4f86-9331-53b0c718d180",
-    "754c3b3f": "754c3b3f-da07-4953-8b87-c62e89269162",
-    "8b7d239c": "8b7d239c-c60d-4255-bb96-e27b54952382",
-    "9c7c0271": "9c7c0271-6e58-4700-8c2c-1876331f98b7",
-    "c766f701": "c766f701-fbcc-47e6-947f-e2d23e464193",
-    "de7bd5d4": "de7bd5d4-d708-4678-b698-545368f6b2b0",
-    "df028788": "df028788-12c6-49b8-8cb6-d7a50a4976cf",
-    "fdf863c9": "fdf863c9-3947-4f3b-bd49-cc1f4161e910"
-  },
   "catalog": {
-    "02b4c170-88a2-4d81-8ea9-5b552391a3eb": {
-      "id": "02b4c170-88a2-4d81-8ea9-5b552391a3eb",
-      "name": "rook",
-      "part_number": "",
-      "ref": "file:refs/stl/rook.stl"
+    "id": "dc3fea27-f972-499f-be46-d1151e0d867d",
+    "version": "alpha-0",
+    "name_index": {
+      "set": "06d15fbd-3b7e-4da7-96bc-ad11538556ae"
     },
-    "077d7867-8687-4839-a0f0-b016962c4603": {
-      "id": "077d7867-8687-4839-a0f0-b016962c4603",
-      "name": "king",
-      "part_number": ""
+    "part_number_index": {
+      "06d15fbd": "06d15fbd-3b7e-4da7-96bc-ad11538556ae"
     },
-    "0c715831-6fca-48f7-b230-aeb24401a5c1": {
-      "id": "0c715831-6fca-48f7-b230-aeb24401a5c1",
-      "name": "king-body",
-      "part_number": "0c715831",
-      "ref": "file:refs/stl/king-body.stl"
-    },
-    "1f56fbb7-b45a-4beb-a998-3199a136a3ad": {
-      "id": "1f56fbb7-b45a-4beb-a998-3199a136a3ad",
-      "name": "pawn",
-      "part_number": "",
-      "ref": "file:refs/stl/pawn.stl"
-    },
-    "320f4357-5b55-4347-8a72-0189d32acd28": {
-      "id": "320f4357-5b55-4347-8a72-0189d32acd28",
-      "name": "bishop",
-      "part_number": "",
-      "ref": "file:refs/stl/bishop.stl"
-    },
-    "46ef2bed-6e3b-408b-a9b8-9bc9eb8595a1": {
-      "id": "46ef2bed-6e3b-408b-a9b8-9bc9eb8595a1",
-      "name": "filament",
-      "source": "virtual",
-      "part_number": "46ef2bed"
-    },
-    "552e260a-deef-4257-8562-4be7602bc587": {
-      "id": "552e260a-deef-4257-8562-4be7602bc587",
-      "name": "queen",
-      "part_number": "",
-      "ref": "file:refs/stl/queen.stl"
-    },
-    "6b37e1b3-4114-4eba-a75d-9d8fb93ec6a0": {
-      "id": "6b37e1b3-4114-4eba-a75d-9d8fb93ec6a0",
-      "name": "set",
-      "part_number": "6b37e1b3"
-    },
-    "6d313782-790b-4f86-9331-53b0c718d180": {
-      "id": "6d313782-790b-4f86-9331-53b0c718d180",
-      "name": "king-cross",
-      "part_number": "6d313782",
-      "ref": "file:refs/stl/king-cross.stl"
-    },
-    "754c3b3f-da07-4953-8b87-c62e89269162": {
-      "id": "754c3b3f-da07-4953-8b87-c62e89269162",
-      "name": "bishop",
-      "source": "virtual",
-      "part_number": "754c3b3f"
-    },
-    "870355f3-acce-4c7b-9ade-931e6f3d63c2": {
-      "id": "870355f3-acce-4c7b-9ade-931e6f3d63c2",
-      "name": "filament",
-      "part_number": ""
-    },
-    "8b7d239c-c60d-4255-bb96-e27b54952382": {
-      "id": "8b7d239c-c60d-4255-bb96-e27b54952382",
-      "name": "suit",
-      "part_number": "8b7d239c"
-    },
-    "9c7c0271-6e58-4700-8c2c-1876331f98b7": {
-      "id": "9c7c0271-6e58-4700-8c2c-1876331f98b7",
-      "name": "queen",
-      "source": "virtual",
-      "part_number": "9c7c0271"
-    },
-    "b9ddd18a-f833-4d4d-8ae4-b4a6403c551e": {
-      "id": "b9ddd18a-f833-4d4d-8ae4-b4a6403c551e",
-      "name": "knight",
-      "part_number": "",
-      "ref": "file:refs/stl/knight.stl"
-    },
-    "c766f701-fbcc-47e6-947f-e2d23e464193": {
-      "id": "c766f701-fbcc-47e6-947f-e2d23e464193",
-      "name": "knight",
-      "source": "virtual",
-      "part_number": "c766f701"
-    },
-    "de7bd5d4-d708-4678-b698-545368f6b2b0": {
-      "id": "de7bd5d4-d708-4678-b698-545368f6b2b0",
-      "name": "king",
-      "source": "virtual",
-      "part_number": "de7bd5d4"
-    },
-    "df028788-12c6-49b8-8cb6-d7a50a4976cf": {
-      "id": "df028788-12c6-49b8-8cb6-d7a50a4976cf",
-      "name": "rook",
-      "source": "virtual",
-      "part_number": "df028788"
-    },
-    "f666beb3-5b4b-4ae4-9431-b9b04155ef80": {
-      "id": "f666beb3-5b4b-4ae4-9431-b9b04155ef80",
-      "name": "filament",
-      "part_number": ""
-    },
-    "fdf863c9-3947-4f3b-bd49-cc1f4161e910": {
-      "id": "fdf863c9-3947-4f3b-bd49-cc1f4161e910",
-      "name": "pawn",
-      "source": "virtual",
-      "part_number": "fdf863c9"
+    "catalog": {
+      "06d15fbd-3b7e-4da7-96bc-ad11538556ae": {
+        "id": "06d15fbd-3b7e-4da7-96bc-ad11538556ae",
+        "name": "set",
+        "part_number": "06d15fbd"
+      }
     }
+  },
+  "root": "2662a45c-7eaf-4ada-bfd6-a2b1da0eaf55",
+  "items": {
+    "06d15fbd-3b7e-4da7-96bc-ad11538556ae": {
+      "id": "06d15fbd-3b7e-4da7-96bc-ad11538556ae",
+      "name": "set",
+      "part_number": "06d15fbd"
+    }
+  },
+  "nodes": {
+    "2662a45c-7eaf-4ada-bfd6-a2b1da0eaf55": {
+      "id": "2662a45c-7eaf-4ada-bfd6-a2b1da0eaf55",
+      "item_id": "06d15fbd-3b7e-4da7-96bc-ad11538556ae",
+      "parent_id": "00000000-0000-0000-0000-000000000000",
+      "children": [],
+      "qty": 1
+    }
+  },
+  "usage": {
+    "06d15fbd-3b7e-4da7-96bc-ad11538556ae": [
+      "2662a45c-7eaf-4ada-bfd6-a2b1da0eaf55"
+    ]
   }
 }

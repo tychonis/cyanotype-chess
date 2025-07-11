@@ -1,4 +1,3 @@
-part "board" {
-    part_number = "20001"
+item "board" {
     ref = "file:board.stl"
 }

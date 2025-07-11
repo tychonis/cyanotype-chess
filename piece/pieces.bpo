@@ -5,7 +5,7 @@
 
 import "piece/printed" {}
 
-part "base" {
+item "base" {
     ref = "file:piece_base.stl"
 }
 
@@ -119,23 +119,6 @@ item "suit" {
             ref = pawn
             variant = params.variant
             qty = 8
-        },
-    ]
-}
-
-item "set" {
-    from = [
-        {
-            name = "black_suit"
-            ref = suit
-            require = color_black
-            qty = 1
-        },
-        {
-            name = "white_suit"
-            ref = suit
-            require = color_white
-            qty = 1
         },
     ]
 }

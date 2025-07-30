@@ -1,30 +1,4 @@
 {
-  "catalog": {
-    "id": "5f50eef4-6d2a-4cd1-9042-b1cc7a95df4b",
-    "version": "alpha-0",
-    "name_index": {
-      "bishop": "0bd76ad0-6065-4553-a7ce-cb8f059e8aea",
-      "board": "967a9d7a-a97e-4ea4-ba91-745d63371e13",
-      "king": "413d84ff-970f-4bc5-8c23-86b354904260",
-      "knight": "a31571d3-5c70-45dd-bf94-36bdb3fb0cf6",
-      "pawn": "116107ba-602b-4ff1-b01b-0e0467c681a5",
-      "queen": "f8a76677-43f5-4d08-a886-51f875bc6400",
-      "rook": "6505fb13-48a4-4c06-9030-1ea3a4c9d49a",
-      "set": "3b6c7a9b-793c-44f1-a5fe-7788556ccef7",
-      "suit": "1fab89bd-8e81-4960-980e-481e215f3ec6"
-    },
-    "part_number_index": {
-      "34d65855": "413d84ff-970f-4bc5-8c23-86b354904260",
-      "5c9b5980": "116107ba-602b-4ff1-b01b-0e0467c681a5",
-      "87004d87": "3b6c7a9b-793c-44f1-a5fe-7788556ccef7",
-      "9b66ea42": "967a9d7a-a97e-4ea4-ba91-745d63371e13",
-      "a706b0db": "1fab89bd-8e81-4960-980e-481e215f3ec6",
-      "cdc6fb1e": "6505fb13-48a4-4c06-9030-1ea3a4c9d49a",
-      "da414673": "0bd76ad0-6065-4553-a7ce-cb8f059e8aea",
-      "dca5256e": "a31571d3-5c70-45dd-bf94-36bdb3fb0cf6",
-      "f084d76f": "f8a76677-43f5-4d08-a886-51f875bc6400"
-    }
-  },
   "root": "efbc32da-dc51-42a6-94ce-b296870f1ddd",
   "items": {
     "0bd76ad0-6065-4553-a7ce-cb8f059e8aea": {
@@ -273,6 +247,8 @@
       "86127904-2a1a-4de0-9152-b2d3c01d6a75"
     ]
   },
+  "id": "4863c578-e4db-41e9-8f51-8b26b44b8c65",
+  "version": "alpha-0",
   "qualifier_index": {
     ".set": "3b6c7a9b-793c-44f1-a5fe-7788556ccef7",
     "board.board": "967a9d7a-a97e-4ea4-ba91-745d63371e13",
@@ -283,6 +259,17 @@
     "piece.queen": "f8a76677-43f5-4d08-a886-51f875bc6400",
     "piece.rook": "6505fb13-48a4-4c06-9030-1ea3a4c9d49a",
     "piece.suit": "1fab89bd-8e81-4960-980e-481e215f3ec6"
+  },
+  "part_number_index": {
+    "34d65855": "413d84ff-970f-4bc5-8c23-86b354904260",
+    "5c9b5980": "116107ba-602b-4ff1-b01b-0e0467c681a5",
+    "87004d87": "3b6c7a9b-793c-44f1-a5fe-7788556ccef7",
+    "9b66ea42": "967a9d7a-a97e-4ea4-ba91-745d63371e13",
+    "a706b0db": "1fab89bd-8e81-4960-980e-481e215f3ec6",
+    "cdc6fb1e": "6505fb13-48a4-4c06-9030-1ea3a4c9d49a",
+    "da414673": "0bd76ad0-6065-4553-a7ce-cb8f059e8aea",
+    "dca5256e": "a31571d3-5c70-45dd-bf94-36bdb3fb0cf6",
+    "f084d76f": "f8a76677-43f5-4d08-a886-51f875bc6400"
   },
   "path_index": {
     "/root": "efbc32da-dc51-42a6-94ce-b296870f1ddd",
